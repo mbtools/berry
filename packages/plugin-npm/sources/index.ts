@@ -33,7 +33,7 @@ export interface Hooks {
 
 const authSettings = {
   npmAlwaysAuth: {
-    description: `URL of the selected npm registry (note: npm enterprise isn't supported)`,
+    description: `Send authentication credentials when querying the npm registry`,
     type: SettingsType.BOOLEAN as const,
     default: false,
   },
